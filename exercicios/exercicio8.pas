@@ -1,22 +1,21 @@
-{
-  Objetivo do programa: incluir novo arquivo no github e demonstrar
-  o push. Alterado no github.
-  Data da criacao: YYYY-MM-DD
-  Criado por: @programacaomentoria
-}  
-program ex_base;
-	//lugar no programa onde declaro variaveis
-	var
-		// nome_variavel: tipo_variavel;
-    // exemplo: nome: string;
-    // exemplo: idade: integer;
-  const
-    // nome_constante = valor_constante;
-    // exemplo: PI = 3.14;
-
+program DesafioSemana;
+var
+    nome: string;
+    datanascimento : string;
+    endereco : string;
+    pais : string;
+    escolaridade : string;
 begin
-    //lugar no programa onde escrevo as instrucoes
-    //exemplo: write('Digite seu nome:');
-    //exemplo: readln(nome);
-    //exemplo: writeln('Olá ', nome);
+  writeln ('-- Formulário de dados --');
+  writeln ('Por favor informe aqui o seu nome ');
+  readln (nome);
+  writeln ('Informe a sua data de nascimento ');
+  readln (datanascimento);
+  writeln ('Informe o endereço completo de onde mora ');
+  readln (endereco);
+  writeln('Informe o País onde reside ');
+  readln(pais);
+  writeln('Informe o seu grau de escolaridade: (Ensino Básico/Ensino Fundamental/Ensino Superior) ');
+  readln(escolaridade);
+  writeln('Os dados inseridos foram: Nome: ', nome,',', ' nascido(a) em: ', datanascimento, ' residindo no endereço: ', endereco,' - ', pais,',', ' com o grau de escolaridade: ', escolaridade,'.');
 end.
