@@ -16,5 +16,5 @@ begin
   writeln ('Agora me informe o valor de sua altura ');
   readln (altura);
   area := cumprimento*altura;
-  writeln('O valor da área do retêngulo é: ', area:0:2);
+  writeln('O valor da área do retângulo é: ', area:0:2);
 end.
