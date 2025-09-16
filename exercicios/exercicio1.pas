@@ -4,6 +4,6 @@
   Criado por: @programacaomentoria
 }  
 program exercicio1;
-begin:
-  write('Olá Mundo!');
+begin
+  writeln ('Olá Mundo!');
 end.
