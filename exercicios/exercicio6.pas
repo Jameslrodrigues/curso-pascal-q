@@ -5,7 +5,16 @@
   Criado por: @programacaomentoria
 }  
 program exercicio6;
-
-begin:
-
+var
+    area: real;
+    raio : real;
+const
+    PI = 3.14;
+begin
+  writeln ('-- Iremos calcular a área de um circulo com base no raio --');
+  writeln ('Por favor me informe o valor do raio ');
+  readln (raio);
+  raio := (raio * raio);
+  area := (PI * raio);
+  writeln ('A área do círculo é: ', area:0:2);
 end.
