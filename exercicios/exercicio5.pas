@@ -5,7 +5,13 @@
   Criado por: @programacaomentoria
 }  
 program exercicio5;
-
-begin:
-
+var
+    lado: integer;
+    areaquadrado: real;
+begin
+  writeln ('-- Iremos calcular a área de um quadrado --');
+  writeln ('Por favor me informe o valor do lado do quadrado ');
+  readln (lado);
+  areaquadrado := (lado * lado);
+  writeln ('A área do quadrado é: ', areaquadrado:0:2, 'm²');
 end.
